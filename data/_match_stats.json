@@ -1,0 +1,9 @@
+{
+ "matched_vendors": 11816,
+ "canonical_vendors": 140525,
+ "matched_value_cad": 159936507872.97,
+ "total_value_cad": 463244999661.84,
+ "matched_contracts": 307136,
+ "total_contracts": 1099940,
+ "method": "exact match of normalized vendor key against normalized corp legal names"
+}

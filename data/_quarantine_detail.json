@@ -1,0 +1,142 @@
+{
+ "negative_amount": {
+  "count": 155,
+  "examples": [
+   {
+    "vendor_name": "Smiths D\u00e9tection Montr\u00e9al Inc",
+    "contract_value": "-12048.59",
+    "contract_date": "2024-01-03",
+    "reference_number": "C-2024-2025-Q1-00099"
+   },
+   {
+    "vendor_name": "ARTEMP PERSONNEL SERVICES INC.",
+    "contract_value": "-91980",
+    "contract_date": "2022-04-01",
+    "reference_number": "C-2022-2023-Q3-00002"
+   },
+   {
+    "vendor_name": "FREEBALANCE INC",
+    "contract_value": "-21854.44",
+    "contract_date": "2022-10-01",
+    "reference_number": "C-2022-2023-Q3-00014"
+   },
+   {
+    "vendor_name": "NORTHERN MICRO INC.",
+    "contract_value": "-19755.93",
+    "contract_date": "2020-01-13",
+    "reference_number": "C-2019-2020-Q4-00122"
+   },
+   {
+    "vendor_name": "FERUS INC",
+    "contract_value": "-18506.67",
+    "contract_date": "2024-12-13",
+    "reference_number": "C-2024-2025-Q4-00130"
+   }
+  ]
+ },
+ "year_out_of_range": {
+  "count": 89,
+  "examples": [
+   {
+    "vendor_name": "TELUS COMMUNICATIONS COMPANY",
+    "contract_value": "28056.06",
+    "contract_date": "2002-06-04",
+    "reference_number": "C-2002-2003-Q1-00001"
+   },
+   {
+    "vendor_name": "XEROX CANADA LTD",
+    "contract_value": "35647.32",
+    "contract_date": "2002-01-24",
+    "reference_number": "C-2001-2002-Q4-00001"
+   },
+   {
+    "vendor_name": "KONICA MINOLTA BUSINESS SOLUTIONS",
+    "contract_value": "34529.35",
+    "contract_date": "2002-03-14",
+    "reference_number": "C-2001-2002-Q4-00002"
+   },
+   {
+    "vendor_name": "XEROX CANADA LTD",
+    "contract_value": "42325.38",
+    "contract_date": "2002-03-26",
+    "reference_number": "C-2001-2002-Q4-00003"
+   },
+   {
+    "vendor_name": "SHARP ELECTRONICS OF CANADA LTD",
+    "contract_value": "23088.87",
+    "contract_date": "2002-02-28",
+    "reference_number": "C-2001-2002-Q4-00004"
+   }
+  ]
+ },
+ "blank_vendor": {
+  "count": 77,
+  "examples": [
+   {
+    "vendor_name": "",
+    "contract_value": "296625.0",
+    "contract_date": "2014-03-21",
+    "reference_number": "C-2013-2014-Q4-00237"
+   },
+   {
+    "vendor_name": "",
+    "contract_value": "13882.0",
+    "contract_date": "2011-05-17",
+    "reference_number": "C-2011-2012-Q1-02231"
+   },
+   {
+    "vendor_name": "",
+    "contract_value": "14580.0",
+    "contract_date": "2011-08-26",
+    "reference_number": "C-2011-2012-Q2-03036"
+   },
+   {
+    "vendor_name": "",
+    "contract_value": "47200.0",
+    "contract_date": "2011-08-26",
+    "reference_number": "C-2011-2012-Q2-03061"
+   },
+   {
+    "vendor_name": "",
+    "contract_value": "467274.0",
+    "contract_date": "2011-04-07",
+    "reference_number": "C-2011-2012-Q1-00553"
+   }
+  ]
+ },
+ "phone_number_like_vendor": {
+  "count": 137,
+  "examples": [
+   {
+    "vendor_name": "3293479",
+    "contract_value": "11500.0",
+    "contract_date": "2017-08-25",
+    "reference_number": "C-2017-2018-Q2-00951"
+   },
+   {
+    "vendor_name": "3293479",
+    "contract_value": "11661.0",
+    "contract_date": "2018-01-29",
+    "reference_number": "C-2017-2018-Q4-01540"
+   },
+   {
+    "vendor_name": "3293479",
+    "contract_value": "22770.0",
+    "contract_date": "2018-01-29",
+    "reference_number": "C-2017-2018-Q4-01541"
+   },
+   {
+    "vendor_name": "3293479",
+    "contract_value": "105340.0",
+    "contract_date": "2018-02-01",
+    "reference_number": "C-2017-2018-Q4-01544"
+   },
+   {
+    "vendor_name": "3293479",
+    "contract_value": "30429.0",
+    "contract_date": "2018-02-01",
+    "reference_number": "C-2017-2018-Q4-01545"
+   }
+  ]
+ }
+}

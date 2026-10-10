@@ -1,0 +1,9 @@
+{
+ "canadabuys_contracts": 224032,
+ "join_eligible": 200645,
+ "matched": 33657,
+ "join_rate": 0.1677440255177054,
+ "matched_value_cad": 21513006455.66,
+ "rule": "normalized supplier name equality AND rounded-dollar amount equality AND award date within 120 days; CAD only",
+ "caveat": "CanadaBuys contract history covers PWGSC-awarded contracts on behalf of departments; TBS proactive publication covers all departments' self-reported contracts. ID namespaces differ (contractNumber vs procurement_id), so the join is probabilistic."
+}

@@ -1,0 +1,53 @@
+# Federal Vendor Ownership
+
+Who really owns the companies getting federal contracts? This project resolves federal contract vendor names to corporation numbers from Corporations Canada and measures ownership concentration: how concentrated contract dollars are, the Canadian-versus-foreign share, and how much of it can be proved.
+
+## Data
+
+- `data/corporations_merged.csv` - Corporations Canada's Federal Corporations bulk files (four subsets, EN+FR) merged into one table keyed on corporation number. The merged file the publisher does not ship.
+- `data/vendor_spine.csv` - canonical vendors with variant counts, matched corporation numbers, contract counts, and total values.
+- `data/vendor_merges.json` - every fuzzy merge with its ratio and raw variants.
+- `data/canadabuys_crosswalk.csv` - legacy-to-current CanadaBuys column mapping with bilingual pair harmonization.
+- `data/quarantine_report.csv` - quarantine rules with counts and examples.
+- `data/build_facts.json` - machine-readable fact sheet with every headline number.
+
+Source data: Treasury Board of Canada Secretariat "Proactive Publication - Contracts", Public Services and Procurement Canada "CanadaBuys contract history", Innovation, Science and Economic Development Canada "Federal Corporations". Open Government Licence - Canada.
+
+## What is new
+
+Vendor normalization for federal contracts already exists elsewhere. This project's product is the ownership layer: the merged corporations table, vendor-to-corporation-number resolution, and the repeatable Canadian-versus-foreign share of contract dollars.
+
+## Honest limits
+
+The contract data is unaudited and self-reported. Registered country is not ultimate ownership: a Canadian-registered subsidiary of a foreign parent reads as Canadian. No bulk Canadian source publishes ultimate parents, and this project does not invent them.
+
+## API
+
+- `GET /api/v1/vendors?q=&limit=` - search canonical vendors
+- `GET /api/v1/vendors/{id}` - one vendor
+- `GET /api/v1/corporations/{num}` - one corporation from the merged table
+- `GET /api/v1/concentration` - ownership concentration aggregates
+- `GET /api/openapi.json` - OpenAPI 3.1
+
+## MCP
+
+Streamable HTTP MCP at `POST /mcp`. Tools: `vendor_lookup`, `ownership_chain`, `concentration`.
+
+## Pages
+
+- `/` - the question, the spine in numbers, the ownership argument
+- `/explorer` - search the vendor spine
+- `/showcase` - findings with citable charts
+- `/methodology` - every rule, the novelty boundary, honest limits
+- `/data` - downloads and agent connection
+
+## Development
+
+- `npm install`, `npm run dev`, `npm run build`, `npm run start`
+- TypeScript strict, ESLint, Tailwind CSS 4
+
+## Author
+
+Richardson Dackam - https://x.com/richardsondx - https://github.com/richardsondx
+
+Independent project. Not affiliated with the Government of Canada, the Treasury Board Secretariat, or Public Services and Procurement Canada.

@@ -1,0 +1,344 @@
+{
+ "status": "live",
+ "vintage": "October 2026",
+ "total_records": 1099940,
+ "total_value_cad": 463244999661.84,
+ "canonical_vendors": 140525,
+ "raw_vendor_variants": 211090,
+ "normalized_keys": 148823,
+ "fuzzy_merges": 5706,
+ "quarantine_count": 458,
+ "corp_matched_vendors": 11816,
+ "corp_matched_dollars": 159936507872.97,
+ "corps_merged": 1572149,
+ "canadabuys_join_rate": 0.1677,
+ "years": {
+  "start": 2003,
+  "end": 2026
+ },
+ "top_vendors": [
+  {
+   "vendor_id": "V4247495320474C4F",
+   "canonical_name": "BGIS GLOBAL INTEGRATED SOLUTIONS CANADA",
+   "corporation_number": "",
+   "contract_count": 22,
+   "total_value_cad": 19208576711.3,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V495256494E472053",
+   "canonical_name": "Irving Shipbuilding Incorporated",
+   "corporation_number": "",
+   "contract_count": 24,
+   "total_value_cad": 19159037820.52,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V56414E434F555645",
+   "canonical_name": "VANCOUVER SHIPYARDS CO. LTD.",
+   "corporation_number": "",
+   "contract_count": 54,
+   "total_value_cad": 15986302320.24,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V534B59414C594E45",
+   "canonical_name": "SkyAlyne Canada Limited Partnership",
+   "corporation_number": "",
+   "contract_count": 1,
+   "total_value_cad": 11219370646.0,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V4C4F434B48454544",
+   "canonical_name": "Lockheed Martin Canada, Inc.",
+   "corporation_number": "3214222",
+   "contract_count": 115,
+   "total_value_cad": 10059399423.7,
+   "country": "Canada"
+  },
+  {
+   "vendor_id": "V49424D",
+   "canonical_name": "IBM CANADA LIMITED",
+   "corporation_number": "11809024",
+   "contract_count": 2459,
+   "total_value_cad": 7992550432.46,
+   "country": "Canada"
+  },
+  {
+   "vendor_id": "V4149524255532044",
+   "canonical_name": "AIRBUS DEFENCE AND SPACE CANADA, INC.",
+   "corporation_number": "9029656",
+   "contract_count": 20,
+   "total_value_cad": 7038084545.38,
+   "country": "Canada"
+  },
+  {
+   "vendor_id": "V4348414E54494552",
+   "canonical_name": "Chantier Davie Canada Incorporated",
+   "corporation_number": "",
+   "contract_count": 19,
+   "total_value_cad": 6513892637.23,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V424142434F434B",
+   "canonical_name": "Babcock International Group",
+   "corporation_number": "11327968",
+   "contract_count": 21,
+   "total_value_cad": 6249037039.23,
+   "country": "Canada"
+  },
+  {
+   "vendor_id": "V47454E4552414C20",
+   "canonical_name": "GENERAL DYNAMICS CANADA LTD.",
+   "corporation_number": "3479200",
+   "contract_count": 185,
+   "total_value_cad": 6094836966.72,
+   "country": "Canada"
+  },
+  {
+   "vendor_id": "V4D4943524F534F46",
+   "canonical_name": "MICROSOFT CANADA COMPANY",
+   "corporation_number": "",
+   "contract_count": 2892,
+   "total_value_cad": 5586192167.09,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V53494B4F52534B59",
+   "canonical_name": "Sikorsky International Operations Inc",
+   "corporation_number": "",
+   "contract_count": 2,
+   "total_value_cad": 5052346123.0,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V47524F5550452053",
+   "canonical_name": "GROUPE SIGNATURE SUR LE SAINT LAURENT",
+   "corporation_number": "",
+   "contract_count": 1,
+   "total_value_cad": 5037566402.8,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V434145204D494C49",
+   "canonical_name": "CAE Military Aviation Training Inc.",
+   "corporation_number": "8335087",
+   "contract_count": 2,
+   "total_value_cad": 4801406815.0,
+   "country": "Canada"
+  },
+  {
+   "vendor_id": "V50434C20434F4E53",
+   "canonical_name": "PCL CONSTRUCTORS CANADA INC.",
+   "corporation_number": "",
+   "contract_count": 78,
+   "total_value_cad": 4739612505.79,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V47454E4552414C20",
+   "canonical_name": "GENERAL DYNAMICS LAND SYSTEMS - CANADA CORPORATION",
+   "corporation_number": "",
+   "contract_count": 137,
+   "total_value_cad": 4652001216.25,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V455341502050524F",
+   "canonical_name": "ESAP PROJECT CO LIMITED PARTNERSHIP",
+   "corporation_number": "",
+   "contract_count": 1,
+   "total_value_cad": 4407205648.66,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V504C454E41525920",
+   "canonical_name": "PLENARY PROPERTIES LTAP LP",
+   "corporation_number": "",
+   "contract_count": 1,
+   "total_value_cad": 4160474985.0,
+   "country": "unknown"
+  },
+  {
+   "vendor_id": "V43414C49414E",
+   "canonical_name": "Calian Group Limited",
+   "corporation_number": "11017535",
+   "contract_count": 3505,
+   "total_value_cad": 3818826773.55,
+   "country": "Canada"
+  },
+  {
+   "vendor_id": "V49204D2050",
+   "canonical_name": "I.M.P. GROUP LIMITED",
+   "corporation_number": "4030605",
+   "contract_count": 23,
+   "total_value_cad": 3526860037.92,
+   "country": "Canada"
+  }
+ ],
+ "yearly": [
+  {
+   "year": 2003,
+   "total_value_cad": 976655247.89,
+   "contract_count": 34
+  },
+  {
+   "year": 2004,
+   "total_value_cad": 11467562387.65,
+   "contract_count": 13962
+  },
+  {
+   "year": 2005,
+   "total_value_cad": 9039227015.03,
+   "contract_count": 23776
+  },
+  {
+   "year": 2006,
+   "total_value_cad": 5303987722.31,
+   "contract_count": 18934
+  },
+  {
+   "year": 2007,
+   "total_value_cad": 10903968102.48,
+   "contract_count": 21796
+  },
+  {
+   "year": 2008,
+   "total_value_cad": 17200754804.87,
+   "contract_count": 24937
+  },
+  {
+   "year": 2009,
+   "total_value_cad": 14199410548.63,
+   "contract_count": 31894
+  },
+  {
+   "year": 2010,
+   "total_value_cad": 7774462316.96,
+   "contract_count": 37143
+  },
+  {
+   "year": 2011,
+   "total_value_cad": 18594736343.59,
+   "contract_count": 45391
+  },
+  {
+   "year": 2012,
+   "total_value_cad": 9406921837.3,
+   "contract_count": 41713
+  },
+  {
+   "year": 2013,
+   "total_value_cad": 13512570437.68,
+   "contract_count": 39796
+  },
+  {
+   "year": 2014,
+   "total_value_cad": 32345972555.84,
+   "contract_count": 43192
+  },
+  {
+   "year": 2015,
+   "total_value_cad": 20962165563.3,
+   "contract_count": 48246
+  },
+  {
+   "year": 2016,
+   "total_value_cad": 15929165743.48,
+   "contract_count": 48810
+  },
+  {
+   "year": 2017,
+   "total_value_cad": 31870896731.95,
+   "contract_count": 66427
+  },
+  {
+   "year": 2018,
+   "total_value_cad": 19469900815.97,
+   "contract_count": 72670
+  },
+  {
+   "year": 2019,
+   "total_value_cad": 28815064779.02,
+   "contract_count": 69169
+  },
+  {
+   "year": 2020,
+   "total_value_cad": 21908281363.07,
+   "contract_count": 63203
+  },
+  {
+   "year": 2021,
+   "total_value_cad": 21823262428.09,
+   "contract_count": 67201
+  },
+  {
+   "year": 2022,
+   "total_value_cad": 31614211170.76,
+   "contract_count": 72541
+  },
+  {
+   "year": 2023,
+   "total_value_cad": 28940628394.06,
+   "contract_count": 72109
+  },
+  {
+   "year": 2024,
+   "total_value_cad": 44492748432.74,
+   "contract_count": 68741
+  },
+  {
+   "year": 2025,
+   "total_value_cad": 36570909163.5,
+   "contract_count": 71425
+  },
+  {
+   "year": 2026,
+   "total_value_cad": 10121535755.67,
+   "contract_count": 36830
+  }
+ ],
+ "country_share": {
+  "canada": 159936507872.97,
+  "foreign": 0,
+  "unknown": 303308491788.87,
+  "matched_share_of_dollars": 0.3453
+ },
+ "top_countries": [
+  {
+   "country": "Canada",
+   "total_value_cad": 343417815097.0
+  },
+  {
+   "country": "Not declared",
+   "total_value_cad": 85504012205.0
+  },
+  {
+   "country": "United States",
+   "total_value_cad": 19360213054.0
+  },
+  {
+   "country": "Other countries",
+   "total_value_cad": 14962959305.840027
+  }
+ ],
+ "sources": [
+  {
+   "name": "Proactive Publication - Contracts",
+   "publisher": "Treasury Board of Canada Secretariat",
+   "url": "https://open.canada.ca/data/en/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b"
+  },
+  {
+   "name": "CanadaBuys contract history",
+   "publisher": "Public Services and Procurement Canada",
+   "url": "https://open.canada.ca/data/en/dataset/4fe645a1-ffcd-40c1-9385-2c771be956a4"
+  },
+  {
+   "name": "Federal Corporations",
+   "publisher": "Innovation, Science and Economic Development Canada",
+   "url": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2"
+  }
+ ]
+}

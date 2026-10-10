@@ -1,0 +1,5 @@
+rule,count,example_vendor,example_value,example_date,example_reference
+blank_vendor,77,,296625.0,2014-03-21,C-2013-2014-Q4-00237
+negative_amount,155,Smiths Détection Montréal Inc,-12048.59,2024-01-03,C-2024-2025-Q1-00099
+phone_number_like_vendor,137,3293479,11500.0,2017-08-25,C-2017-2018-Q2-00951
+year_out_of_range,89,TELUS COMMUNICATIONS COMPANY,28056.06,2002-06-04,C-2002-2003-Q1-00001

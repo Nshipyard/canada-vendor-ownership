@@ -1,0 +1,54 @@
+old_column,new_column,language_pair,notes
+contract-number,contractNumber-numeroContrat,language-neutral (shared),renamed
+amendment_number,amendmentNumber-numeroModification,language-neutral (shared),renamed
+award_date,contractAwardDate-dateAttributionContrat,language-neutral (shared),renamed; expiry-date dropped in new schema
+expiry-date,contractEndDate-dateFinContrat,language-neutral (shared),closest analog; expiry-date was in legacy only
+contract-value,contractAmount-montantContrat,language-neutral (shared),renamed
+total-contract-value,totalContractValue-valeurTotaleContrat,language-neutral (shared),renamed
+gsin,gsin-nibs,language-neutral (shared),renamed
+gsin-description_en,gsinDescription-nibsDescription-eng,English member of EN/FR pair,renamed
+gsin-description_fr,gsinDescription-nibsDescription-fra,French member of EN/FR pair,renamed
+competitive-tender_en,procurementMethod-methodeApprovisionnement-eng,English member of EN/FR pair,recast: competitive/open vs limited tendering
+competitive-tender_fr,procurementMethod-methodeApprovisionnement-fra,French member of EN/FR pair,recast
+limited-tender-reason,limitedTenderingReason-raisonAppelOffresLimite-eng,English member of EN/FR pair,renamed
+limited-tender-reason-description_en,limitedTenderingReason-raisonAppelOffresLimite-eng,English member of EN/FR pair,merged into reason code descriptions
+solicitation-procedure,solicitationNumber-numeroSollicitation,language-neutral (shared),not the same: legacy was procedure code+desc; new has number only
+trade-agreement,tradeAgreements-accordsCommerciaux-eng,English member of EN/FR pair,renamed
+supplier-standardized-name,supplierStandardizedName-nomNormaliseFournisseur-eng,English member of EN/FR pair,renamed
+supplier-operating-name,supplierOperatingName-nomCommercialFournisseur-eng,English member of EN/FR pair,renamed
+supplier-legal-name,supplierLegalName-nomLegalFournisseur-eng,English member of EN/FR pair,renamed
+supplier-address-city,supplierAddressCity-fournisseurAdresseVille-eng,English member of EN/FR pair,renamed
+supplier-address-prov-state,supplierAddressProvince-fournisseurAdresseProvince-eng,English member of EN/FR pair,renamed
+supplier-address-postal-code,supplierAddressPostalCode-fournisseurAdresseCodePostal,language-neutral (shared),renamed
+supplier-address-country,supplierAddressCountry-fournisseurAdressePays-eng,English member of EN/FR pair,renamed
+organization-employee-count_en,supplierEmployeeCount-fournisseurNombreEmployes-eng,English member of EN/FR pair,renamed
+number-records,numberOfRecords-nombreEnregistrements,language-neutral (shared),renamed
+end-user-entity_en,endUserEntitiesName-nomEntitesUtilisateurFinal-eng,English member of EN/FR pair,renamed
+contracting-entity-office-name_en,contractingEntityName-nomEntitContractante-eng,English member of EN/FR pair,renamed
+procurement-entity-name_en,procurement-entity-name_en,language-neutral (shared),dropped in new schema (PWGSC-centric field)
+country-percentage,percentageOfGoodsByCountry-pourcentageDeBiensParPays,language-neutral (shared),renamed
+date-file-published,publicationDate-datePublication,language-neutral (shared),renamed
+,title-titre-eng,English member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,title-titre-fra,French member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,referenceNumber-numeroReference,language-neutral (shared),new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,procurementNumber-numeroApprovisionnement,language-neutral (shared),new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,amendmentDate-dateModification,language-neutral (shared),new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,contractStartDate-contratDateDebut,language-neutral (shared),new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,contractCurrency-contratMonnaie,language-neutral (shared),new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,contractStatus-statutContrat-eng,English member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,contractStatus-statutContrat-fra,French member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,instrumentType-typeInstrument-eng,English member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,instrumentType-typeInstrument-fra,French member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,amendmentType-typeModification-eng,English member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,amendmentType-typeModification-fra,French member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,unspsc,language-neutral (shared),new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,unspscDescription-eng,English member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,unspscDescription-fra,French member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,procurementCategory-categorieApprovisionnement,language-neutral (shared),new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,noticeType-avisType-eng,English member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,noticeType-avisType-fra,French member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,selectionCriteria-criteresSelection-eng,English member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,selectionCriteria-criteresSelection-fra,French member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,regionsOfDelivery-regionsLivraison-eng,English member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+,regionsOfDelivery-regionsLivraison-fra,French member of EN/FR pair,new column introduced with CanadaBuys-era schema (April 2023+); no legacy equivalent
+(temporal split),(temporal split),n/a,Complete file covers contractAwardDate 2023-06-01 onward; Historical file covers 2009-01-01 to 2023-05-31. Both files already use the same restructured bilingual schema; the April 2023 restructure was applied retroactively to the historical data.

@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canada: #d80621;
+  --color-canada-dark: #a8041a;
+  --color-ink: #0a0f1e;
+  --color-paper: #ffffff;
+  --color-paper-warm: #faf8f5;
+  --color-line: #e7e1d7;
+  --color-muted: #f3f0ea;
+  --font-display: "Newsreader", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.squircle {
+  border-radius: 28px;
+}
+
+.hairline {
+  border: 1px solid var(--color-line);
+}
+
+.stat-num {
+  color: var(--color-canada);
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.pill-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--color-canada);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.85rem 1.75rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.15s ease;
+}
+
+.pill-cta:hover {
+  background: var(--color-canada-dark);
+}
+
+.pill-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--color-line);
+  color: var(--color-ink);
+  border-radius: 999px;
+  padding: 0.85rem 1.75rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: border-color 0.15s ease;
+}
+
+.pill-ghost:hover {
+  border-color: var(--color-ink);
+}
+
+.card {
+  background: var(--color-paper);
+  border: 1px solid var(--color-line);
+  border-radius: 28px;
+}
+
+.card-warm {
+  background: var(--color-paper-warm);
+  border: 1px solid var(--color-line);
+  border-radius: 28px;
+}
+
+.kicker {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-canada);
+}
+
+.chart-bar {
+  transition: opacity 0.15s ease;
+}
+
+.chart-bar:hover {
+  opacity: 0.82;
+}
+
+pre.mcp-snippet {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+table.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+table.data-table th {
+  text-align: left;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(10, 15, 30, 0.55);
+  font-weight: 700;
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+table.data-table td {
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid var(--color-line);
+  vertical-align: top;
+}
+
+table.data-table tr:last-child td {
+  border-bottom: none;
+}

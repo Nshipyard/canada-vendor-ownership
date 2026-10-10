@@ -1,0 +1,516 @@
+{
+ "scope": "TBS Proactive Publication - Contracts over $10,000, contract-level dedup by (owner_org, procurement_id), representative row = max contract_value (latest cumulative total incl. amendments). Quarantined rows excluded.",
+ "total_rows_in_scope": 1313289,
+ "total_contracts": 1099940,
+ "total_value_cad": 463244999661.84,
+ "top_20_by_value": [
+  {
+   "rank": 1,
+   "canonical_name": "BGIS GLOBAL INTEGRATED SOLUTIONS CANADA",
+   "vendor_id": "V4247495320474C4F",
+   "corporation_number": null,
+   "total_value_cad": 19208576711.3,
+   "contract_count": 22,
+   "share_of_total": 0.0415,
+   "first_year": "2014",
+   "last_year": "2026"
+  },
+  {
+   "rank": 2,
+   "canonical_name": "Irving Shipbuilding Incorporated",
+   "vendor_id": "V495256494E472053",
+   "corporation_number": null,
+   "total_value_cad": 19159037820.52,
+   "contract_count": 24,
+   "share_of_total": 0.0414,
+   "first_year": "2010",
+   "last_year": "2025"
+  },
+  {
+   "rank": 3,
+   "canonical_name": "VANCOUVER SHIPYARDS CO. LTD.",
+   "vendor_id": "V56414E434F555645",
+   "corporation_number": null,
+   "total_value_cad": 15986302320.24,
+   "contract_count": 54,
+   "share_of_total": 0.0345,
+   "first_year": "2010",
+   "last_year": "2026"
+  },
+  {
+   "rank": 4,
+   "canonical_name": "SkyAlyne Canada Limited Partnership",
+   "vendor_id": "V534B59414C594E45",
+   "corporation_number": null,
+   "total_value_cad": 11219370646.0,
+   "contract_count": 1,
+   "share_of_total": 0.0242,
+   "first_year": "2024",
+   "last_year": "2024"
+  },
+  {
+   "rank": 5,
+   "canonical_name": "Lockheed Martin Canada, Inc.",
+   "vendor_id": "V4C4F434B48454544",
+   "corporation_number": "3214222",
+   "total_value_cad": 10059399423.7,
+   "contract_count": 115,
+   "share_of_total": 0.0217,
+   "first_year": "2004",
+   "last_year": "2026"
+  },
+  {
+   "rank": 6,
+   "canonical_name": "IBM CANADA LIMITED",
+   "vendor_id": "V49424D",
+   "corporation_number": "11809024",
+   "total_value_cad": 7992550432.46,
+   "contract_count": 2459,
+   "share_of_total": 0.0173,
+   "first_year": "2004",
+   "last_year": "2026"
+  },
+  {
+   "rank": 7,
+   "canonical_name": "AIRBUS DEFENCE AND SPACE CANADA, INC.",
+   "vendor_id": "V4149524255532044",
+   "corporation_number": "9029656",
+   "total_value_cad": 7038084545.38,
+   "contract_count": 20,
+   "share_of_total": 0.0152,
+   "first_year": "2014",
+   "last_year": "2026"
+  },
+  {
+   "rank": 8,
+   "canonical_name": "Chantier Davie Canada Incorporated",
+   "vendor_id": "V4348414E54494552",
+   "corporation_number": null,
+   "total_value_cad": 6513892637.23,
+   "contract_count": 19,
+   "share_of_total": 0.0141,
+   "first_year": "2015",
+   "last_year": "2026"
+  },
+  {
+   "rank": 9,
+   "canonical_name": "Babcock International Group",
+   "vendor_id": "V424142434F434B",
+   "corporation_number": "11327968",
+   "total_value_cad": 6249037039.23,
+   "contract_count": 21,
+   "share_of_total": 0.0135,
+   "first_year": "2008",
+   "last_year": "2026"
+  },
+  {
+   "rank": 10,
+   "canonical_name": "GENERAL DYNAMICS CANADA LTD.",
+   "vendor_id": "V47454E4552414C20",
+   "corporation_number": "3479200",
+   "total_value_cad": 6094836966.72,
+   "contract_count": 185,
+   "share_of_total": 0.0132,
+   "first_year": "2004",
+   "last_year": "2026"
+  },
+  {
+   "rank": 11,
+   "canonical_name": "MICROSOFT CANADA COMPANY",
+   "vendor_id": "V4D4943524F534F46",
+   "corporation_number": null,
+   "total_value_cad": 5586192167.09,
+   "contract_count": 2892,
+   "share_of_total": 0.0121,
+   "first_year": "2004",
+   "last_year": "2026"
+  },
+  {
+   "rank": 12,
+   "canonical_name": "Sikorsky International Operations Inc",
+   "vendor_id": "V53494B4F52534B59",
+   "corporation_number": null,
+   "total_value_cad": 5052346123.0,
+   "contract_count": 2,
+   "share_of_total": 0.0109,
+   "first_year": "2004",
+   "last_year": "2004"
+  },
+  {
+   "rank": 13,
+   "canonical_name": "GROUPE SIGNATURE SUR LE SAINT LAURENT",
+   "vendor_id": "V47524F5550452053",
+   "corporation_number": null,
+   "total_value_cad": 5037566402.8,
+   "contract_count": 1,
+   "share_of_total": 0.0109,
+   "first_year": "2015",
+   "last_year": "2015"
+  },
+  {
+   "rank": 14,
+   "canonical_name": "CAE Military Aviation Training Inc.",
+   "vendor_id": "V434145204D494C49",
+   "corporation_number": "8335087",
+   "total_value_cad": 4801406815.0,
+   "contract_count": 2,
+   "share_of_total": 0.0104,
+   "first_year": "2016",
+   "last_year": "2022"
+  },
+  {
+   "rank": 15,
+   "canonical_name": "PCL CONSTRUCTORS CANADA INC.",
+   "vendor_id": "V50434C20434F4E53",
+   "corporation_number": null,
+   "total_value_cad": 4739612505.79,
+   "contract_count": 78,
+   "share_of_total": 0.0102,
+   "first_year": "2011",
+   "last_year": "2026"
+  },
+  {
+   "rank": 16,
+   "canonical_name": "GENERAL DYNAMICS LAND SYSTEMS - CANADA CORPORATION",
+   "vendor_id": "V47454E4552414C20",
+   "corporation_number": null,
+   "total_value_cad": 4652001216.25,
+   "contract_count": 137,
+   "share_of_total": 0.01,
+   "first_year": "2004",
+   "last_year": "2025"
+  },
+  {
+   "rank": 17,
+   "canonical_name": "ESAP PROJECT CO LIMITED PARTNERSHIP",
+   "vendor_id": "V455341502050524F",
+   "corporation_number": null,
+   "total_value_cad": 4407205648.66,
+   "contract_count": 1,
+   "share_of_total": 0.0095,
+   "first_year": "2019",
+   "last_year": "2019"
+  },
+  {
+   "rank": 18,
+   "canonical_name": "PLENARY PROPERTIES LTAP LP",
+   "vendor_id": "V504C454E41525920",
+   "corporation_number": null,
+   "total_value_cad": 4160474985.0,
+   "contract_count": 1,
+   "share_of_total": 0.009,
+   "first_year": "2011",
+   "last_year": "2011"
+  },
+  {
+   "rank": 19,
+   "canonical_name": "Calian Group Limited",
+   "vendor_id": "V43414C49414E",
+   "corporation_number": "11017535",
+   "total_value_cad": 3818826773.55,
+   "contract_count": 3505,
+   "share_of_total": 0.0082,
+   "first_year": "2004",
+   "last_year": "2026"
+  },
+  {
+   "rank": 20,
+   "canonical_name": "I.M.P. GROUP LIMITED",
+   "vendor_id": "V49204D2050",
+   "corporation_number": "4030605",
+   "total_value_cad": 3526860037.92,
+   "contract_count": 23,
+   "share_of_total": 0.0076,
+   "first_year": "2004",
+   "last_year": "2026"
+  }
+ ],
+ "top_20_by_count": [
+  {
+   "rank": 1,
+   "canonical_name": "MCKESSON CANADA CORPORATION",
+   "vendor_id": "V4D434B4553534F4E",
+   "corporation_number": null,
+   "contract_count": 8963,
+   "total_value_cad": 468891190.87
+  },
+  {
+   "rank": 2,
+   "canonical_name": "Canadian Corps of Commissionaires (NS DIV)",
+   "vendor_id": "V43414E414449414E",
+   "corporation_number": "345521",
+   "contract_count": 6895,
+   "total_value_cad": 1920734134.58
+  },
+  {
+   "rank": 3,
+   "canonical_name": "NORTHERN  MICRO INC",
+   "vendor_id": "V4E4F52544845524E",
+   "corporation_number": null,
+   "contract_count": 5775,
+   "total_value_cad": 1533106983.37
+  },
+  {
+   "rank": 4,
+   "canonical_name": "IMPERIAL OIL LIMITED,",
+   "vendor_id": "V494D50455249414C",
+   "corporation_number": "120162",
+   "contract_count": 5170,
+   "total_value_cad": 650656234.3
+  },
+  {
+   "rank": 5,
+   "canonical_name": "Nisha Technologies, Inc.",
+   "vendor_id": "V4E49534841205445",
+   "corporation_number": "16777988",
+   "contract_count": 5109,
+   "total_value_cad": 670879928.94
+  },
+  {
+   "rank": 6,
+   "canonical_name": "FORD MOTOR COMPANY OF CANADA, LIMITED",
+   "vendor_id": "V464F5244204D4F54",
+   "corporation_number": "114472",
+   "contract_count": 4235,
+   "total_value_cad": 781617369.79
+  },
+  {
+   "rank": 7,
+   "canonical_name": "XEROX CANADA LIMITED",
+   "vendor_id": "V5845524F58",
+   "corporation_number": "1576798",
+   "contract_count": 4181,
+   "total_value_cad": 297171890.9
+  },
+  {
+   "rank": 8,
+   "canonical_name": "Calian Group Limited",
+   "vendor_id": "V43414C49414E",
+   "corporation_number": "11017535",
+   "contract_count": 3505,
+   "total_value_cad": 3818826773.55
+  },
+  {
+   "rank": 9,
+   "canonical_name": "GENERAL MOTORS OF CANADA COMPANY/",
+   "vendor_id": "V47454E4552414C20",
+   "corporation_number": "4342801",
+   "contract_count": 3437,
+   "total_value_cad": 548857394.11
+  },
+  {
+   "rank": 10,
+   "canonical_name": "Softchoice Corporation Inc",
+   "vendor_id": "V534F465443484F49",
+   "corporation_number": "11065742",
+   "contract_count": 3402,
+   "total_value_cad": 270269514.8
+  },
+  {
+   "rank": 11,
+   "canonical_name": "FISHER SCIENTIFIC COMPANY/",
+   "vendor_id": "V4649534845522053",
+   "corporation_number": "114341",
+   "contract_count": 3317,
+   "total_value_cad": 81006911.39
+  },
+  {
+   "rank": 12,
+   "canonical_name": "RICOH CANADA INCORPORATED",
+   "vendor_id": "V5249434F48",
+   "corporation_number": null,
+   "contract_count": 3294,
+   "total_value_cad": 189852211.39
+  },
+  {
+   "rank": 13,
+   "canonical_name": "World Fuel Services Canada Inc.",
+   "vendor_id": "V574F524C44204655",
+   "corporation_number": null,
+   "contract_count": 3038,
+   "total_value_cad": 124606580.11
+  },
+  {
+   "rank": 14,
+   "canonical_name": "STANTEC CONSULTING LIMITED",
+   "vendor_id": "V5354414E54454320",
+   "corporation_number": "2907151",
+   "contract_count": 3000,
+   "total_value_cad": 370180992.56
+  },
+  {
+   "rank": 15,
+   "canonical_name": "EXCEL HUMAN RESOURCES INC./",
+   "vendor_id": "V455843454C204855",
+   "corporation_number": null,
+   "contract_count": 2985,
+   "total_value_cad": 609705513.37
+  },
+  {
+   "rank": 16,
+   "canonical_name": "MICROSOFT CANADA COMPANY",
+   "vendor_id": "V4D4943524F534F46",
+   "corporation_number": null,
+   "contract_count": 2892,
+   "total_value_cad": 5586192167.09
+  },
+  {
+   "rank": 17,
+   "canonical_name": "Teknion Canada Limited",
+   "vendor_id": "V54454B4E494F4E",
+   "corporation_number": null,
+   "contract_count": 2649,
+   "total_value_cad": 214427177.81
+  },
+  {
+   "rank": 18,
+   "canonical_name": "IBM CANADA LIMITED",
+   "vendor_id": "V49424D",
+   "corporation_number": "11809024",
+   "contract_count": 2459,
+   "total_value_cad": 7992550432.46
+  },
+  {
+   "rank": 19,
+   "canonical_name": "Unisource Technology Incorporated",
+   "vendor_id": "V554E49534F555243",
+   "corporation_number": "1066447",
+   "contract_count": 2333,
+   "total_value_cad": 218764937.38
+  },
+  {
+   "rank": 20,
+   "canonical_name": "IRVING OIL COMMERCIAL G. P.",
+   "vendor_id": "V495256494E472043",
+   "corporation_number": null,
+   "contract_count": 2316,
+   "total_value_cad": 380237466.88
+  }
+ ],
+ "yearly_totals": {
+  "2003": {
+   "value_cad": 976655247.89,
+   "contracts": 34
+  },
+  "2004": {
+   "value_cad": 11467562387.65,
+   "contracts": 13962
+  },
+  "2005": {
+   "value_cad": 9039227015.03,
+   "contracts": 23776
+  },
+  "2006": {
+   "value_cad": 5303987722.31,
+   "contracts": 18934
+  },
+  "2007": {
+   "value_cad": 10903968102.48,
+   "contracts": 21796
+  },
+  "2008": {
+   "value_cad": 17200754804.87,
+   "contracts": 24937
+  },
+  "2009": {
+   "value_cad": 14199410548.63,
+   "contracts": 31894
+  },
+  "2010": {
+   "value_cad": 7774462316.96,
+   "contracts": 37143
+  },
+  "2011": {
+   "value_cad": 18594736343.59,
+   "contracts": 45391
+  },
+  "2012": {
+   "value_cad": 9406921837.3,
+   "contracts": 41713
+  },
+  "2013": {
+   "value_cad": 13512570437.68,
+   "contracts": 39796
+  },
+  "2014": {
+   "value_cad": 32345972555.84,
+   "contracts": 43192
+  },
+  "2015": {
+   "value_cad": 20962165563.3,
+   "contracts": 48246
+  },
+  "2016": {
+   "value_cad": 15929165743.48,
+   "contracts": 48810
+  },
+  "2017": {
+   "value_cad": 31870896731.95,
+   "contracts": 66427
+  },
+  "2018": {
+   "value_cad": 19469900815.97,
+   "contracts": 72670
+  },
+  "2019": {
+   "value_cad": 28815064779.02,
+   "contracts": 69169
+  },
+  "2020": {
+   "value_cad": 21908281363.07,
+   "contracts": 63203
+  },
+  "2021": {
+   "value_cad": 21823262428.09,
+   "contracts": 67201
+  },
+  "2022": {
+   "value_cad": 31614211170.76,
+   "contracts": 72541
+  },
+  "2023": {
+   "value_cad": 28940628394.06,
+   "contracts": 72109
+  },
+  "2024": {
+   "value_cad": 44492748432.74,
+   "contracts": 68741
+  },
+  "2025": {
+   "value_cad": 36570909163.5,
+   "contracts": 71425
+  },
+  "2026": {
+   "value_cad": 10121535755.67,
+   "contracts": 36830
+  }
+ },
+ "country_share_from_matched_corps": {
+  "method": "registered_country of the federally-incorporated corporation matched by exact normalized-name match. Only matched vendors have a country; all others are labelled 'unmatched, origin unknown'. No country is guessed.",
+  "matched_share_of_dollars": 0.3453,
+  "matched_share_of_contracts": 0.2792,
+  "breakdown": {
+   "UNKNOWN (unmatched)": {
+    "value_cad": 303308491788.87,
+    "share": 0.6547,
+    "contracts": 792804
+   },
+   "CA": {
+    "value_cad": 159936507872.97,
+    "share": 0.3453,
+    "contracts": 307136
+   }
+  }
+ },
+ "tbs_declared_country_share_supplementary": {
+  "CA": 343417815097.0,
+  "US": 19360213054.0,
+  "ES": 7257926173.0,
+  "DE": 3460717146.0,
+  "GB": 972500168.0,
+  "AE": 577681331.0,
+  "SE": 438290721.0,
+  "BLANK": 85504012205.0,
+  "note": "computed on a separate re-scan of contracts.csv at contract level (owner_org+procurement_id dedup, max contract_value); 1,100,001 contracts vs pipeline 1,099,940 - tiny diff from vendor-name blank-after-normalize rows"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "rows_total": 1313289,
+ "rows_kept": 1312765,
+ "contracts": 1099940,
+ "canonical_vendors": 140525,
+ "merge_groups": 5706,
+ "total_value_cad": 463244999661.83997,
+ "exact_vendor_keys": 148823,
+ "quarantine": {
+  "quar_negative_amount": 155,
+  "quar_year_out_of_range": 89,
+  "quar_blank_vendor": 77,
+  "quar_blank_after_normalize": 66,
+  "quar_phone_number_like_vendor": 137
+ }
+}

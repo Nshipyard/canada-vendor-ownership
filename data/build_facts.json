@@ -1,0 +1,163 @@
+{
+ "project": "Federal Vendor Ownership - Open Nshipyard",
+ "build_date": "2026-10-10",
+ "licence": "Open Government Licence - Canada",
+ "sources": {
+  "tbs_contracts": {
+   "url": "https://open.canada.ca/data/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b/resource/fac950c0-00d5-4ec1-a4d3-9cbebf98a305/download/contracts.csv",
+   "downloaded": "2026-10-10",
+   "bytes": 641790933,
+   "rows_csv_lines": 1388798,
+   "data_updated": "2026-10-09 (per open.canada.ca)"
+  },
+  "canadabuys_complete": {
+   "url": "https://canadabuys.canada.ca/opendata/pub/contractHistoryComplete-contratsOctroyesComplet.csv",
+   "downloaded": "2026-10-10",
+   "bytes": 61707854,
+   "award_dates": "2023-06-01 to 2026-09-25"
+  },
+  "canadabuys_historical": {
+   "url": "https://canadabuys.canada.ca/opendata/pub/2009-2023-contractHistoryHistorical-contratsOctroyesHistorique.csv",
+   "downloaded": "2026-10-10",
+   "bytes": 167014400,
+   "award_dates": "2009-01-01 to 2023-05-31"
+  },
+  "federal_corporations": {
+   "base": "https://d4bf66bykfyaf.cloudfront.net/",
+   "downloaded": "2026-10-10",
+   "subsets": {
+    "active-cbca": 1290688,
+    "active-non-cbca": 102424,
+    "inactive-cbca": 1665872,
+    "inactive-non-cbca": 85314
+   },
+   "unique_corp_numbers": 1572149
+  }
+ },
+ "tbs_scope": {
+  "total_rows_csv": 1313289,
+  "rows_kept_in_scope": 1312765,
+  "quarantined_rows_total": 458,
+  "quarantine_by_rule": {
+   "negative_amount": 155,
+   "year_out_of_range": 89,
+   "blank_vendor": 77,
+   "phone_number_like_vendor": 137
+  },
+  "distinct_contracts": 1099940,
+  "total_value_cad_contract_level": 463244999661.84,
+  "years_covered": [
+   "2003",
+   "2004",
+   "2005",
+   "2006",
+   "2007",
+   "2008",
+   "2009",
+   "2010",
+   "2011",
+   "2012",
+   "2013",
+   "2014",
+   "2015",
+   "2016",
+   "2017",
+   "2018",
+   "2019",
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025",
+   "2026"
+  ]
+ },
+ "vendor_normalization": {
+  "exact_normalized_vendors": 148823,
+  "canonical_vendors_after_fuzzy_merge": 140525,
+  "fuzzy_merge_groups": 5706,
+  "fuzzy_method": "difflib SequenceMatcher ratio >= 0.93 within identical-first-token blocks"
+ },
+ "corp_match": {
+  "method": "exact match of normalized vendor key against normalized corp legal names",
+  "vendors_matched": 11816,
+  "vendors_total": 140525,
+  "vendor_match_rate": 0.0841,
+  "value_matched_cad": 159936507872.97,
+  "value_match_rate": 0.3453,
+  "contracts_matched": 307136,
+  "contract_match_rate": 0.2792,
+  "caveat": "match is against FEDERAL corporations only; provincially-incorporated vendors (e.g. Irving Shipbuilding, Vancouver Shipyards) do not match even when the company is real"
+ },
+ "canadabuys_join": {
+  "distinct_canadabuys_contracts": 224032,
+  "join_eligible": 200645,
+  "matched": 33657,
+  "join_rate": 0.1677,
+  "matched_value_cad": 21513006455.66,
+  "rule": "normalized supplier name equality AND rounded-dollar amount equality AND award date within 120 days; CAD only",
+  "caveat": "CanadaBuys contract history covers PWGSC-awarded contracts on behalf of departments; TBS proactive publication covers all departments' self-reported contracts. ID namespaces differ (contractNumber vs procurement_id), so the join is probabilistic.",
+  "per_fiscal_year_files_skipped": "redundant: complete (2023-06-01+) + historical (2009-2023-05-31) cover the full span with identical restructured schema"
+ },
+ "concentration_headlines": {
+  "total_value_cad": 463244999661.84,
+  "top_5_vendors": [
+   {
+    "name": "BGIS GLOBAL INTEGRATED SOLUTIONS CANADA",
+    "value_cad": 19208576711.3,
+    "corp_number": null
+   },
+   {
+    "name": "Irving Shipbuilding Incorporated",
+    "value_cad": 19159037820.52,
+    "corp_number": null
+   },
+   {
+    "name": "VANCOUVER SHIPYARDS CO. LTD.",
+    "value_cad": 15986302320.24,
+    "corp_number": null
+   },
+   {
+    "name": "SkyAlyne Canada Limited Partnership",
+    "value_cad": 11219370646.0,
+    "corp_number": null
+   },
+   {
+    "name": "Lockheed Martin Canada, Inc.",
+    "value_cad": 10059399423.7,
+    "corp_number": "3214222"
+   }
+  ],
+  "top1_share": 0.0415,
+  "top5_share": 0.1633,
+  "top20_share": 0.3353,
+  "canadian_vs_foreign": {
+   "matched_dollars_cad": 159936507872.97,
+   "matched_share_of_dollars": 0.3453,
+   "unmatched_dollars_cad": 303308491788.87,
+   "unmatched_share_of_dollars": 0.6547,
+   "label": "matched vendors resolved to CA-registered federal corporations (all matched were CA); unmatched vendors origin unknown - no country guessed"
+  },
+  "tbs_declared_country_supplementary": {
+   "CA": {
+    "value_cad": 343417815097.0,
+    "share": 0.741
+   },
+   "US": {
+    "value_cad": 19360213054.0,
+    "share": 0.042
+   },
+   "blank": {
+    "value_cad": 85504012205.0,
+    "share": 0.185
+   },
+   "note": "department-declared country_of_vendor per contract (separate re-scan); 18.5% blank"
+  }
+ },
+ "parent_layer": {
+  "status": "PARTIAL",
+  "missing_source": "No free bulk source of ultimate corporate parents exists. StatCan Inter-Corporate Ownership (Corporations Returns Act) is the authoritative who-owns-what source but is a paid, threshold-based product (~45,000 corps), not bulk open data. The federal Individuals with Significant Control register is not bulk-published. The ISED Federal Corporations CSV has no parent field.",
+  "verified_parents_csv": "data/verified_parents.csv - top 5 vendors manually verified from official/press sources, excluded from automated aggregates"
+ }
+}
