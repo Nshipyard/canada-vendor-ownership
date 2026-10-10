@@ -32,6 +32,12 @@ export default function Nav() {
               {i.label}
             </Link>
           ))}
+          <Link
+            href="https://canada.nshipyard.com"
+            className="whitespace-nowrap text-ink/70 transition hover:text-canada"
+          >
+            {t.nav.allProjects}
+          </Link>
         </nav>
         <div className="flex items-center gap-3">
           <button
@@ -48,6 +54,12 @@ export default function Nav() {
             {i.label}
           </Link>
         ))}
+        <Link
+          href="https://canada.nshipyard.com"
+          className="whitespace-nowrap text-ink/70 hover:text-canada"
+        >
+          {t.nav.allProjects}
+        </Link>
       </nav>
     </header>
   );
