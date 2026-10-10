@@ -14,6 +14,7 @@ export default function Nav() {
   ];
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-white/95 backdrop-blur">
+      {/* Open Nshipyard umbrella: "All projects" back-link in desktop + mobile navs */}
       <div className="mx-auto flex max-w-[1240px] items-center justify-between gap-4 px-5 py-3.5">
         <Link href="/" className="flex items-center gap-3">
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-canada font-display text-lg font-bold text-white">
