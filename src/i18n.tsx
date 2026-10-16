@@ -84,7 +84,7 @@ const en = {
   explorer: {
     kicker: "Explorer",
     title: "Search the vendor spine",
-    body: "Search canonical vendors by name. Each vendor shows its raw variant count, matched corporation number, contract count, and total value.",
+    body: "Search canonical vendors by name, or browse the full list below, ranked by total contract value. Each vendor shows its raw variant count, matched corporation number, contract count, and total value.",
     searchPlaceholder: "Search vendor names",
     resultsFor: "results for",
     noResults: "No vendors match that search.",
@@ -96,6 +96,11 @@ const en = {
     country: "Country",
     unknown: "unknown",
     loading: "Searching",
+    browseTitle: "Browse all vendors",
+    browseSub: "vendors, ranked by total contract value",
+    loadMore: "Load more vendors",
+    loadingVendors: "Loading vendors",
+    allShown: "That is every vendor in the spine.",
   },
   methodology: {
     kicker: "Methodology",
@@ -287,7 +292,7 @@ const fr: Dict = {
   explorer: {
     kicker: "Explorateur",
     title: "Chercher dans la colonne des fournisseurs",
-    body: "Cherchez des fournisseurs canoniques par nom. Chaque fournisseur affiche son nombre de variantes brutes, son numéro d'entreprise apparié, son nombre de contrats et sa valeur totale.",
+    body: "Cherchez des fournisseurs canoniques par nom, ou parcourez la liste complète ci-dessous, classée par valeur totale des contrats. Chaque fournisseur affiche son nombre de variantes brutes, son numéro d'entreprise apparié, son nombre de contrats et sa valeur totale.",
     searchPlaceholder: "Rechercher des noms de fournisseurs",
     resultsFor: "résultats pour",
     noResults: "Aucun fournisseur ne correspond à cette recherche.",
@@ -299,6 +304,11 @@ const fr: Dict = {
     country: "Pays",
     unknown: "inconnu",
     loading: "Recherche en cours",
+    browseTitle: "Parcourir tous les fournisseurs",
+    browseSub: "fournisseurs, classés par valeur totale des contrats",
+    loadMore: "Charger plus de fournisseurs",
+    loadingVendors: "Chargement des fournisseurs",
+    allShown: "Voilà tous les fournisseurs de la colonne.",
   },
   methodology: {
     kicker: "Méthodologie",

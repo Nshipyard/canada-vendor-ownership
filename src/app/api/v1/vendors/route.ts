@@ -65,6 +65,42 @@ export function searchSpine(q: string, limit: number) {
   return { vendors: matches, total_canonical: rows.length, source: "spine" };
 }
 
+let sortedCache: SpineRow[] | null = null;
+
+function sortedSpine(): SpineRow[] | null {
+  const rows = loadSpine();
+  if (!rows) return null;
+  if (!sortedCache) {
+    sortedCache = [...rows].sort(
+      (a, b) => Number(b.total_value_cad || 0) - Number(a.total_value_cad || 0)
+    );
+  }
+  return sortedCache;
+}
+
+export function browseSpine(offset: number, limit: number) {
+  const rows = sortedSpine();
+  if (!rows) {
+    return {
+      vendors: [],
+      total_canonical: facts.canonical_vendors,
+      offset,
+      limit,
+      has_more: false,
+      source: "spine",
+    };
+  }
+  const vendors = rows.slice(offset, offset + limit).map(rowToVendor);
+  return {
+    vendors,
+    total_canonical: rows.length,
+    offset,
+    limit,
+    has_more: offset + limit < rows.length,
+    source: "spine",
+  };
+}
+
 export function getVendorById(id: string) {
   const rows = loadSpine();
   if (!rows) return null;
@@ -74,12 +110,17 @@ export function getVendorById(id: string) {
 
 export async function GET(req: NextRequest) {
   const q = req.nextUrl.searchParams.get("q") ?? "";
-  const limit = Math.min(100, Math.max(1, Number(req.nextUrl.searchParams.get("limit") ?? 25)));
+  const browse = req.nextUrl.searchParams.get("browse") === "1";
+  const limit = Math.min(200, Math.max(1, Number(req.nextUrl.searchParams.get("limit") ?? 25)));
+  const offset = Math.max(0, Number(req.nextUrl.searchParams.get("offset") ?? 0) || 0);
+  if (browse) {
+    return NextResponse.json(browseSpine(offset, limit));
+  }
   if (!q.trim()) {
     return NextResponse.json({
       vendors: [],
       total_canonical: facts.canonical_vendors,
-      hint: "Pass ?q= to search vendor names.",
+      hint: "Pass ?q= to search vendor names, or ?browse=1 to page through all vendors ranked by total contract value.",
     });
   }
   return NextResponse.json(searchSpine(q, limit));
